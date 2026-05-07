@@ -45,7 +45,7 @@ p{
 /* ===== HERO ===== */
 
 .hero{
-  min-height:100vh;
+  height:100vh;
   padding:40px 20px;
 
   display:flex;
@@ -90,6 +90,7 @@ p{
   opacity:0;
   transform:translateY(80px);
   animation:fadeUp 1s forwards;
+  
 }
 
 @keyframes fadeUp{
@@ -99,6 +100,10 @@ p{
   }
 }
 /* ===== CONTENT ===== */
+
+.section-title{
+  padding-top: 5%;
+}
 
 .content{
   width:min(1200px, 92%);
